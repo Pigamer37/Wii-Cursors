@@ -1,0 +1,59 @@
+[Version]
+Signature="$Windows NT$"
+
+[DefaultInstall]
+CopyFiles=Cursors.Files
+AddReg=Cursors.Reg
+
+[DestinationDirs]
+Cursors.Files=10,"%CUR_DIR%"
+
+[Cursors.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Alternate_Select.cur
+wii-help.cur
+Wii-Horizontal_Resize.ani
+Unavailable.cur
+wii-loading-cd.ani
+Wii-Busy.ani
+Wii-Move.ani
+Wii-Diagonal_Resize_1.ani
+wii-move.cur
+Wii-Diagonal_Resize_2.ani
+wii-open.cur
+wii-grab.cur
+Wii-Precision_Select.ani
+Wii_hand2.cur
+wii-semi-busy.cur
+Wii_hand3.cur
+Wii-Text_Select.ani
+Wii_hand4.cur
+Wii-Vertical_Resize.ani
+Wii_Hand.cur
+Wii-Working_In_Background.ani
+Wii-Handwriting.cur
+
+[Strings]
+CUR_DIR      = "Cursors\Wii"
+SCHEME_NAME  = "Wii"; Name shown in Mouse Properties dialog
+pointer      = "Wii_Hand.cur"; Normal Select
+help         = "wii-help.cur"; Help Select
+work         = "wii-loading-cd.ani"; Working In Background
+busy         = "Wii-Busy.ani"; Busy
+cross        = "Wii-Precision_Select.ani"; Precision Select
+text         = "Wii-Text_Select.ani"; Text Select
+hand         = "Wii-Handwriting.cur"; Handwriting
+unavailable  = "Unavailable.cur"; Unavailable
+vert         = "Wii-Vertical_Resize.ani"; Vertical Resize
+horz         = "Wii-Horizontal_Resize.ani"; Horizontal Resize
+dgn1         = "Wii-Diagonal_Resize_1.ani"; Diagonal Resize 1 [NW/SE]
+dgn2         = "Wii-Diagonal_Resize_2.ani"; Diagonal Resize 2 [NE/SW]
+move         = "Wii-Move.ani"; Move
+alternate    = "Alternate_Select.cur"; Alternate Select
+link         = "Wii_hand2.cur"; Link Select
+pin          = "Wii_hand3.cur"; Location Select
+person       = "Wii_hand4.cur"; Person Select

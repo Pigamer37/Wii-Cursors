@@ -1,0 +1,7 @@
+[Icon Theme]
+Name=Wii
+Inherits=breeze_cursors
+Comment=Wii Cursors (Wii is a trademark of Nintendo)
+Comment[en]=Wii Cursors (Wii is a trademark of Nintendo)
+Comment[es]=Cursores de Wii (Wii es una marca registrada de Nintendo)
+Example=default
